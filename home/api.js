@@ -10,6 +10,6 @@ const editInfos = (newNome, newIdade, newCidade) => {
   pessoa.cidade = newCidade;
 };
 
-editInfos("Felipe", 33, "Paraibano");
+editInfos("Maria", 25, "Rio de Janeiro");
 
 console.log(pessoa);
