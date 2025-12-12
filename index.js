@@ -1,7 +1,7 @@
 // Função para calcular raiz quadrada
 function calcularRaizQuadrada(numero) {
   if (numero < 0) {
-    throw new Error("Não é possível calcular raiz quadrada de número negativo");
+    throw new Error("Não é possível ccom 0");
   }
   return Math.sqrt(numero);
 }
