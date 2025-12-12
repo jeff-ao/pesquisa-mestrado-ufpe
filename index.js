@@ -7,12 +7,12 @@ function calcularRaizQuadrada(numero) {
 }
 
 // Usando a função
-const valores = [4, 9, 16, 25, 144];
+const valores = [6, 7, 12, 23, 44];
 
 console.log("Calculando raízes quadradas:");
 valores.forEach((valor) => {
   const raiz = calcularRaizQuadrada(valor);
-  console.log(`√${valor} = ${raiz}`);
+  console.log(`valor: √${valor} = ${raiz}`);
 });
 
 // Exemplos adicionais
