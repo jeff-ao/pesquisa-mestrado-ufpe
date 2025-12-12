@@ -9,10 +9,10 @@ function calcularRaizQuadrada(numero) {
 // Usando a função
 const valores = [4, 9, 16, 25, 144];
 
-console.log("Calculando raízes quadradas:");
+console.log("Calculando raízes quadradas abaixo:");
 valores.forEach((valor) => {
   const raiz = calcularRaizQuadrada(valor);
-  console.log(`√${valor} = ${raiz}`);
+  console.log(`valor: √${valor} = ${raiz}`);
 });
 
 // Exemplos adicionais
